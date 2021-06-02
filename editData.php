@@ -2,6 +2,8 @@
 include '../model/databasePemuda.php';
 $db = new database();
 ?>
+
+
 <h1> EDIT DATA PEMUDA</h1>
 <h4>by anwar</h4>
 <form action="../controls/prosesPemuda.php?aksi=update" method="post">
